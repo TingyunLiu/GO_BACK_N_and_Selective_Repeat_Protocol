@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#Run script for client(sender) distributed as part of 
+#Assignment 2
+#Computer Networks (CS 456)
+#Number of parameters: 3
+#Parameter:
+#    $1: <protocal>
+#    $2: <timeout>
+#    $3: <filename>
+#
+
+#For Python implementation
+python sender.py $1 $2 $3
+

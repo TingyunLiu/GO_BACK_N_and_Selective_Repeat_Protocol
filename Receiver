@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#Run script for the server(receiver) distributed as a part of 
+#Assignment 2
+#Computer Networks (CS 456)
+#
+#Number of parameters: 2
+#Parameter:
+#    $1: <protocal>
+#    $2: <filename>
+#
+
+#For Python implementation
+python receiver.py $1 $2
+
